@@ -82,9 +82,10 @@ public class CreationBenchmarks
     public List<int> ToList() => Numbers.ToList();
 
     [Benchmark]
-    public FrozenSet<int> ToFrozenList() => Numbers.ToFrozenSet();
+    public FrozenSet<int> ToFrozenSet() => Numbers.ToFrozenSet();
 
     [Benchmark]
     public HashSet<int> ToHashSet() => Numbers.ToHashSet();
 }
+
 
